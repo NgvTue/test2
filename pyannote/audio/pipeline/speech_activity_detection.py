@@ -137,6 +137,9 @@ class SpeechActivityDetection(Pipeline):
         """
 
         sad_scores = self._scores(current_file)
+        ## self._scores: Pretrained 
+        ## => __call__() of Pretrained => __call__() of FeatureExtraction
+        ## return SlidingWindowFeature
 
         # if this check has not been done yet, do it once and for all
         if not hasattr(self, "log_scale_"):
