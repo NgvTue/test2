@@ -1,0 +1,12 @@
+architecture:
+   name: pyannote.audio.models.SincTDNN
+   params:
+      sincnet:
+         stride: [5, 1, 1]
+         waveform_normalize: True
+         instance_normalize: True
+      tdnn:
+         embedding_dim: 512
+      embedding:
+         batch_normalize: False
+         unit_normalize: False

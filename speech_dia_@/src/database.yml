@@ -1,0 +1,10 @@
+Databases:
+   AMI: /home/tuenguyen/Desktop/end2end_diarization/data/vin18k/train_mixture_database/wavs/{uri}.wav
+Protocols:
+   AMI:
+      SpeakerDiarization:
+         MixHeadset:
+           train:
+              uri: /home/tuenguyen/Desktop/end2end_diarization/data/vin18k/train_mixture_database/wavs/a.lst
+              annotation: /home/tuenguyen/Desktop/end2end_diarization/data/vin18k/train_mixture_database/wavs/a.rttm
+              annotated: /home/tuenguyen/Desktop/end2end_diarization/data/vin18k/train_mixture_database/wavs/a.uem

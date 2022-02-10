@@ -1,0 +1,10 @@
+Databases:
+  Vin18kSpeakers: /path/to/mixture/dir/{uri}.wav
+Protocols:
+  Vin18kSpeakers:
+    SpeakerDiarization:
+      KaldibasedDatabase:
+        development:
+          annotation: data/dev/dev.rttm
+        train:
+          annotation: data/train/train.rttm

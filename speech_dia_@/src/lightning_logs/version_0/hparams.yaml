@@ -1,0 +1,15 @@
+sample_rate: 16000
+num_channels: 1
+sincnet:
+  stride: 1
+  sample_rate: 16000
+lstm:
+  hidden_size: 128
+  num_layers: 2
+  bidirectional: true
+  monolithic: true
+  dropout: 0.0
+  batch_first: true
+linear:
+  hidden_size: 128
+  num_layers: 2
